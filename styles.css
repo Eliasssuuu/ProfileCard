@@ -1,0 +1,62 @@
+body {
+  background-color: #19a2ae;
+  overflow: hidden;
+  text-align: center;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+h1 {
+  font-size: 18px;
+  margin-top: 30px;
+}
+.bg-box {
+  height: 98vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+}
+.bg-item {
+  position: absolute;
+}
+.top-circle {
+  right: 60%;
+  bottom: 40%;
+}
+.bot-circle {
+  left: 60%;
+  top: 40%;
+}
+.card {
+  border: 0;
+  border-radius: 6%;
+  height: 25rem;
+  top: 38%;
+  z-index: 1;
+  overflow: hidden;
+}
+.profile-pic {
+  position: absolute;
+  top: 20%;
+  left: 36%;
+  border-radius: 50%;
+  border:solid white;
+}
+.profile-name {
+  font-weight: bold;
+  margin-top: 10px;
+}
+.stats {
+  font-weight: 700;
+}
+.addtl-text {
+  font-size: 11px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+}
+.attribution {
+  font-size: 11px;
+}
+.attribution a { color: #3e52a3; }
